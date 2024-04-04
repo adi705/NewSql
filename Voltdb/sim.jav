@@ -9,7 +9,7 @@ public class VoltDBSimulation {
         client.createConnection("localhost");
 
         // Total number of transactions to simulate
-        int totalTransactions = 100000;
+        int totalTransactions = 100;
 
         // Track total time taken for all transactions
         long totalTime = 0;
